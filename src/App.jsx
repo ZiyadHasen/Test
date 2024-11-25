@@ -1,17 +1,13 @@
-import { useState } from 'react';
+// src/App.jsx
+import React from 'react';
+import Header from './components/Header';
 
-function App() {
-  const [count, setCount] = useState(0);
-
+const App = () => {
   return (
-    <>
-      <div className=' bg-gray-100 flex justify-end items-center'>
-        <h1 className='text-6xl font-bold text-blue-600'>
-          Welcome to My SPA with Vite and Tailwind!
-        </h1>
-      </div>
-    </>
+    <div>
+      <Header />
+    </div>
   );
-}
+};
 
 export default App;
