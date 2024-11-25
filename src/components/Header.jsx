@@ -2,6 +2,7 @@ import React from 'react';
 import { IoAirplaneSharp } from 'react-icons/io5';
 import { Button } from '@mui/material';
 import FlightSearchBar from './FlightSearchBar';
+import FlightForm from './FlightForm';
 
 const Header = () => {
   return (
@@ -20,11 +21,11 @@ const Header = () => {
           <div>select language</div>
         </div>
       </nav>
-      <h1 className="mx-[7%] my-8 text-4xl font-bold">
+      <h1 className="mx-[7%] my-12 text-4xl font-bold">
         Millions of cheap flights with just one search!
       </h1>
 
-      <FlightSearchBar />
+      <FlightForm />
     </div>
   );
 };
