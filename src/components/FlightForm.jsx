@@ -9,7 +9,7 @@ const FlightForm = () => {
   console.log('Current tripType:', tripType); // Log updated value in parent
 
   return (
-    <div className="mx-auto max-w-[1300px] rounded-md bg-white px-12 pb-8 pt-4 shadow-xl">
+    <div className="mx-[8%] rounded-md bg-white px-12 pb-8 pt-4 shadow-xl">
       <FlightSearchBar tripType={tripType} setTripType={setTripType} />
       {tripType === 'roundTrip' && <RoundTripComponent />}
       {tripType === 'oneWay' && <OneWayComponent />}

@@ -48,7 +48,7 @@ const VisitorCount = () => {
         }}
         color="black"
         size="large"
-        className="h-16 w-[120px] rounded-[7px] border border-gray-500 p-2 text-lg focus:outline-none"
+        className="h-[72px] w-full rounded-[7px] border border-gray-500 p-1 text-lg focus:outline-none"
       >
         <div className="flex flex-col items-start gap-[1px]">
           <span className="text-xl font-bold text-black">

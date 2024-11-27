@@ -13,7 +13,7 @@ const Footer = () => {
               options when searching for airfares. Our comprehensive search
               process encompasses over 500 airlines and compares hundreds of
               travel sites at once, ensuring you find the most competitive rates
-              available. We are passionate about making travel more accessible
+              available. We are passionate aboutnpm making travel more accessible
               and enjoyable for everyone, and we are constantly striving to
               improve our offerings and exceed customer expectations.
             </p>
